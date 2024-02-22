@@ -1,0 +1,53 @@
+/* Media Queries - Tablet */
+@media screen and (max-width: 991px) {
+  /* Tablet - Navbar section */
+  .navbar-text {
+    font-size: 15px;
+  }
+  .navbar-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #3c2317;
+    border-left: 2px solid #3c2317;
+  }
+  .navbar-col-rb {
+    border-right: none;
+  }
+  .navbar-pi {
+    border: none;
+  }
+  .nav-title {
+    height: 50px;
+  }
+  /* Tablet - Personal info section */
+  .objective-div,
+  .info-div {
+    height: 360px;
+  }
+  .section-job-info h2 {
+    font-size: 25px;
+  }
+  /* Tablet - Certificate section */
+  .cer-1,
+  .cer-3 {
+    padding-left: 0px;
+    padding-right: 30px;
+  }
+  .cer-2 {
+    padding-left: 30px;
+    padding-right: 0px;
+  }
+  /* Tablet - Footer */
+  .footer i {
+    font-size: 150%;
+  }
+  /* Build the project charter */
+  .charter-container {
+    grid-template-columns: minmax(50vh, 1fr);
+  }
+  .charter-container .box {
+    grid-column: unset !important;
+    grid-row: unset !important;
+  }
+}

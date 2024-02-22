@@ -1,0 +1,62 @@
+/* Media Queries - Mobile */
+@media screen and (max-width: 767px) {
+  /* Mobile - Navbar section */
+  .navbar-text {
+    font-size: 12px;
+  }
+  .navbar-col {
+    display: block;
+    justify-content: start;
+    align-items: center;
+    border: none;
+  }
+  .nav-title {
+    height: 30px;
+  }
+  /* Tablet - Personal info section */
+  .objective-div,
+  .info-div {
+    height: 450px;
+  }
+  .section-job-info h2 i {
+    font-size: 20px;
+  }
+  /* Mobile - Certificate section */
+  .cer-1,
+  .cer-2,
+  .cer-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .cer-1,
+  .cer-2 {
+    border-bottom: 2px solid #000; /* Màu sắc và kích thước đường */
+    padding-bottom: 20px;
+  }
+  .cer-2 img {
+    border-left: none;
+    padding-left: 0;
+  }
+  .cer-2 p,
+  .cer-2 li {
+    padding-left: 0;
+  }
+  .cer-1 img,
+  .cer-2 img,
+  .cer-3 img {
+    width: 70vh !important;
+    padding: 0;
+  }
+  /* Mobile - Footer */
+  .footer i {
+    font-size: 120%;
+  }
+  /* Build the project charter */
+  .charter-container {
+    grid-template-columns: minmax(50vh, 1fr);
+  }
+  .charter-container .box {
+    grid-column: unset !important;
+    grid-row: unset !important;
+  }
+}
